@@ -304,6 +304,51 @@ body {
   color: #64748b;
 }
 
+.build-house-daily-ad {
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: 0 1rem 1.25rem;
+}
+
+@media (min-width: 640px) {
+  .build-house-daily-ad {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+}
+
+.build-house-daily-ad__link {
+  display: block;
+  border-radius: 0.75rem;
+  overflow: hidden;
+  border: 1px solid rgb(226 232 240 / 0.9);
+  background: #fff;
+  box-shadow: 0 1px 2px rgb(15 23 42 / 0.04);
+  transition: box-shadow 0.15s ease, border-color 0.15s ease;
+}
+
+.build-house-daily-ad__link:hover {
+  border-color: var(--brand-border);
+  box-shadow: 0 4px 12px rgb(29 78 216 / 0.08);
+}
+
+.build-house-daily-ad__link:focus {
+  outline: none;
+}
+
+.build-house-daily-ad__link:focus-visible {
+  outline: 2px solid var(--brand);
+  outline-offset: 3px;
+}
+
+.build-house-daily-ad__img {
+  display: block;
+  width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
 .site-footer {
   border-top: 1px solid rgb(226 232 240 / 0.8);
   background: rgb(255 255 255 / 0.85);

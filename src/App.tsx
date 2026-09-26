@@ -7,6 +7,7 @@ import {
   formatGbp,
   type FormDefaults,
 } from "./calculator";
+import { BuildHouseDailyAd } from "./BuildHouseDailyAd";
 
 const PRIVACY_URL = "https://scrub.cordoval.co.uk/privacy";
 const TERMS_URL = "https://scrub.cordoval.co.uk/terms";
@@ -258,6 +259,8 @@ function App() {
           </section>
         </div>
       </main>
+
+      <BuildHouseDailyAd />
 
       <footer className="site-footer">
         <div className="footer-inner">
