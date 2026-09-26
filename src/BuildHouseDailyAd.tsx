@@ -15,8 +15,8 @@ export function BuildHouseDailyAd() {
           className="build-house-daily-ad__img"
           src={AD_IMAGE_URL}
           alt="Build House Daily newsletter"
-          width={960}
-          height={540}
+          width={1672}
+          height={941}
           loading="lazy"
           decoding="async"
         />
